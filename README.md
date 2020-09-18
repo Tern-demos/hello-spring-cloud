@@ -14,7 +14,7 @@ $ mvn clean package
 
 To run the application on Cloud Foundry, first target and long into a Cloud Foundry environment, then run this command:
 
-~~
+~~~
 $ cf push
 ~~~
 
