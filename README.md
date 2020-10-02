@@ -5,7 +5,7 @@ A [Spring Boot application](http://github.com/cloudfoundry-samples/hello-spring-
 
 ## Building the application
 
-Use Maven to build the application:
+Use Maven to build the application
 
 ~~~
 $ mvn clean package
