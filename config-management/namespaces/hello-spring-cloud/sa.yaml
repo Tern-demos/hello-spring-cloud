@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    app.kubernetes.io/component: serviceaccount
+    app.kubernetes.io/managed-by: kf
+    app.kubernetes.io/name: hello-spring-cloud
+  name: sa-hello-spring-cloud
+secrets:
+- name: sa-hello-spring-cloud-token-lxg7x
+
